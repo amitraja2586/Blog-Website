@@ -1,0 +1,65 @@
+/* Basic styling for blog homepage */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+header, footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.container {
+	width: 90%;
+	max-width: 800px;
+	margin: 2rem auto;
+	background-color: #fff;
+	padding: 1rem 2rem;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.post-preview {
+	margin-bottom: 2rem;
+}
+
+.post-preview h2 {
+	margin-bottom: 0.5rem;
+}
+
+.post-preview p {
+	margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+	nav ul {
+		flex-direction: column;
+	}
+	nav li {
+		margin: 0.5rem 0;
+	}
+}
+

@@ -32,6 +32,25 @@ nav a {
 	text-decoration: none;
 }
 
+/* button-like appearance for nav links */
+nav a.nav-button {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	background-color: #555;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+}
+
+nav a.nav-button:hover,
+nav a.nav-button:focus {
+	background-color: #777;
+}
+
+/* additional spacing between buttons when wrapped */
+nav li {
+	margin: 0 1rem;
+}
+
 .container {
 	width: 90%;
 	max-width: 800px;

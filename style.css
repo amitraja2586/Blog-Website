@@ -82,3 +82,56 @@ nav li {
 	}
 }
 
+/* Enhanced footer styling */
+footer {
+	padding: 2rem 0;
+	margin-top: 3rem;
+	border-top: 2px solid #555;
+}
+
+footer .footer-content {
+	display: flex;
+	justify-content: space-around;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1rem 2rem;
+	flex-wrap: wrap;
+}
+
+footer .footer-section {
+	margin: 1rem;
+}
+
+footer .footer-section h3 {
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+footer .footer-section ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer .footer-section ul li {
+	margin: 0.3rem 0;
+}
+
+footer .footer-section a {
+	color: #aaa;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+footer .footer-section a:hover {
+	color: #fff;
+}
+
+footer .footer-bottom {
+	text-align: center;
+	border-top: 1px solid #555;
+	padding-top: 1rem;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+
